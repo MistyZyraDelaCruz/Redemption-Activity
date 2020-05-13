@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MotorBike Color Changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container rgba-color">
+        <section>
+            <h1>MotorBike Color Changer</h1>
+            <img id="image" src="img/tri-wheel.png">
+        </section>
+        <section>
+            <h4 class="random-color">Generate Random Color</h4>
+            <h4 class="specific-color">Generate Specific Color</h4>
+        </section>
+    </div>
+    <div class="butt">
+        <a class="btn btn-primary" id="change" onclick="Generate()"><button>Generate</button></a>
+    </div>
+    <div>
+         <select class="dropdown-menu" id="choose">
+            <option value="HotPink">Hot Pink</option>
+            <option value="SeaGreen">Sea Green</option> 
+            <option value="Sienna">Sienna</option>
+            <option value="Teal">Teal</option>
+            <option value="Coral">Coral</option>
+            <option value="Grey">Grey</option> 
+            <option value="Black">Black</option>
+        </select>
+    </div>
+    <div>
+        <section class="show-reset">
+            <a class="show btn-primary" onclick="Show()"><button>Show</button></a>
+            <a class="reset btn-primary" onclick="Reset()"><button>Reset</button></a>
+        </section>
+    </div>
+    <div class="vehicles rgba-color">
+        <section>
+            <h1>Select A Vehicle</h1>
+        </section>
+    <div>
+        <img id="select-motor" src="img/received_218466222861731.png">
+        <a class="select-motor" href="motor.html"><button>Activate</button></a>
+    </div>
+    <div>
+        <img id="select-car" src="img/car.png">
+        <a class="select-car" href="car.html"><button>Activate</button></a>
+    </div>
+    <div>
+        <img id="select-tri-wheel" src="img/tri-wheel.png">
+        <button class="select-tri-wheel">Active</button>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

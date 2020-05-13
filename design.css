@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Senpai;
+    src: url("fonts/tarrget-font/TarrgetHalfToneRegular-gzRY.otf")
+}
+
+body {
+    font-family: Senpai;
+    background-image: url("img/4d294efc850af11b0226a8ed85c252c4--girls-on-motorcycles-gun-art.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    float: left;
+    margin-left: 80px;
+    margin-top: 70px;
+    padding-bottom: 70px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: -4px -4px 5px 0 rgba(255, 255, 255, 0.7),
+    4px 4px 5px 0 rgba(0, 0, 0, 0.2)
+}
+
+.rgba-color {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+button {
+    font-family: Senpai;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 510px;
+    margin-left: -350px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-style: ridge;
+    border-radius: 25px;
+    padding: 3px 12px;
+    cursor: pointer;
+    box-shadow: -4px -4px 5px 0 rgba(255, 255, 255, 0.7),
+    4px 4px 5px 0 rgba(0, 0, 0, 0.2)
+}
+
+.btn {
+    font-family: Senpai;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 510px;
+    margin-left: -10px;
+    border-style: ridge;
+    border-radius: 25px;
+    padding: 5px 15px;
+    cursor: pointer;
+    box-shadow: -1px -1px 5px 0 rgba(255, 255, 255, 0.7),
+    1px 1px 5px 0 rgba(0, 0, 0, 0.2)
+}
+
+.btn:hover {
+    padding: 2px 2px;
+    border-radius: 25px;
+    box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.7),
+    inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2)
+}
+
+img {
+    width: 500px;
+    height: 350px;
+}
